@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import ExampleComponent from './ExampleComponent'
+import TestComponent  from './TestComponent '
 import TestComponent from './TestComponent'
 
 // Add your code own within the return statement
@@ -19,7 +20,8 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of JSX.
         </p>
         <ExampleComponent />
-
+        <TestComponent />
+TestComponent 
       </div>
     );
   }
